@@ -440,11 +440,20 @@
 .singly h6{
 	display: inline-block;
 	margin-left: 125px;
+	margin-top: 10px;
 	font-family: BrandonGrotesque-Light;
 	font-size: 18px;
 	font-weight: 200;
 	text-transform: uppercase;
 	color: white;
+}
+
+.singly:first-child h6{
+	margin-left: 93px;
+}
+
+.singly:last-child h6{
+	margin-left: 134px;
 }
 
 .singly p{
@@ -467,5 +476,143 @@
 	font-weight: 100;
 	text-align: center;
 	text-transform: uppercase;
+	color: white;
+}
+
+.contacts{
+	background-color: #7690C4;
+	overflow: hidden;
+}
+
+.hello{
+	margin-top: 60px;
+	width: 48%;
+	float: left;
+}
+
+.h_write{
+}
+
+.h_contact{
+}
+
+.first{
+	overflow: hidden;
+}
+
+.phone{
+	width: 48%;
+	float: left;
+}
+
+.message{
+	width: 48%;
+	float: right;
+}
+
+.second{
+	overflow: hidden;
+}
+
+.twitter{
+	width: 48%;
+	float: left;
+}
+
+.facebook{
+	width: 48%;
+	float: right;
+}
+
+.third{
+	overflow: hidden;
+}
+
+.gplus{
+	width: 48%;
+	float: left;
+}
+
+.pinterest{
+	width: 48%;
+	float: right;
+}
+.contacts h1{
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: white;
+}
+
+.contacts span{
+	font-family: BrandonGrotesque-Bold;
+	font-size: 60px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: white;
+}
+
+.contacts p{
+	font-family: BrandonGrotesque-Regular;
+	font-size: 19px;
+	font-weight: 100;
+	color: white;
+}
+
+.h_contact img{
+	width: 17%;
+	float: left;
+}
+
+.h_contact p{
+	font-family: BrandonGrotesque-Regular;
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	margin-top: 22px;
+	margin-right: 35px;
+	width: 65%;
+	float: right;
+}
+
+.form{
+	margin-top: 60px;
+	margin-bottom: 50px;
+	width: 48%;
+	float: right;
+}
+
+input{
+	width: 94%;
+	margin-top: 22px;
+	height: 50px;
+}
+
+input:first-child{
+	margin-top: 0;
+}
+
+textarea{
+	width: 94%;
+	margin-top: 22px;
+	height: 190px;
+}
+
+.footer{
+	background-color: #7690C4;
+}
+
+.f_wrapper{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.f_wrapper p{
+	padding: 3px 45px;
+    border-top: 1px solid white;
+	font-family: BrandonGrotesque-Regular;
+	font-size: 18px;
+	font-weight: 100;
 	color: white;
 }
